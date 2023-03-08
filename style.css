@@ -1,0 +1,100 @@
+
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		h1 {
+			margin: 0;
+		}
+		
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			padding: 20px;
+		}
+		
+		.student {
+			background-color: #f2f2f2;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+			margin-bottom: 20px;
+			padding: 20px;
+			text-align: center;
+			width: 300px;
+		}
+		
+		.student img {
+			border-radius: 50%;
+			height: 100px;
+			margin-bottom: 10px;
+			width: 100px;
+		}
+		
+		.student h2 {
+			margin: 0;
+		}
+		
+		.student p {
+			margin: 10px 0;
+		}
+		
+		button {
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 3px;
+			color: white;
+			cursor: pointer;
+			font-size: 16px;
+			padding: 10px 20px;
+			transition: background-color 0.3s ease;
+		}
+		
+		button:hover {
+			background-color: #3e8e41;
+        }
+		
+		form {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+		
+		input[type=text] {
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-right: 10px;
+			width: 300px;
+			font-size: 16px;
+		}
+		
+		input[type=submit] {
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 3px;
+			color: white;
+			cursor: pointer;
+			font-size: 16px;
+			padding: 10px 20px;
+			transition: background-color 0.3s ease;
+		}
+		
+		input[type=submit]:hover {
+			background-color: #3e8e41;
+        }
+        .student span button{
+            background-color: #b10c0c;
+
+        }
