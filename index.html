@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/indexcss.css">
+</head>
+<body>
+    <header>
+		<h1>Attendance App</h1>
+    
+	</header>
+	<div class="container">
+		<form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit" id="login-button">Login</button>
+          </form>
+	</div>
+   
+    <footer>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <p>Attendance App CA & IT&copy; 2023</p>
+        <p>Dr.Shyama Prasad Mukherjee University</p>
+      
+      </footer>
+      
+    
+      
+<script>
+    document.getElementById("login-form").addEventListener("submit", function(event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        
+        // Get the username and password input values
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        
+       
+        if (username === "Sacrastic" && password === "Lostmind") {
+          // Redirect the user to the next page
+          window.location.href = "attendancepage.html";
+        } else {
+          // Display an error message
+          alert("Incorrect username or password. Please try again.");
+        }
+      });
+      </script>
+     
+      
+</body>
+</html>
